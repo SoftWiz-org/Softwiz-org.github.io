@@ -1,0 +1,239 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'arl';
+    src: url('../fonts/arial.ttf');
+}
+
+@font-face {
+    font-family: 'tcm';
+    src: url('../fonts/TCM_____.TTF');
+}
+
+.maindiv {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-div {
+    display: flex;
+    float: right;
+}
+
+.lgo {
+    position: absolute;
+    left: 10px;
+    padding: 30px 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.lgo span {
+    color: #34BFF0;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding: 28px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 80px;
+}
+
+nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: arl;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    color: #34BFF0;
+    text-decoration: underline;
+}
+
+nav input {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #34BFF0;
+    color: white;
+
+}
+
+.intro {
+    padding: 230px;
+}
+
+.intro h3 {
+    color: white;
+    font-size: 18px;
+    font-family: arl;
+    font-style: normal;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.intro h1 span {
+    text-decoration: underline;
+    text-decoration-color: #34BFF0;
+    ;
+}
+
+.intro p {
+    color: white;
+    margin-top: 8px;
+    font-family: arl;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+.servicesetion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #0a0909;
+    align-items: center;
+}
+
+.servicesetion h1 {
+    color: white;
+    align-items: center;
+    align-content: center;
+    display: inline;
+}
+
+.servicesetion h1 span {
+    text-decoration: underline;
+    text-decoration-color: #34BFF0;
+}
+
+.servicediv {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: rgba(15, 15, 15, 1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #030607;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.servicediv img {
+    width: 150px;
+}
+
+.servicediv h3 {
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+.aboutsection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.971);
+    padding: 100px;
+}
+
+.hirme {
+    padding: 60px;
+    padding-left: 15%;
+}
+
+.hirme h1 {
+    color: white;
+    font-family: tcm;
+}
+
+.hirme h1 span {
+    color: #34BFF0;
+    text-decoration: underline;
+}
+
+.hirme div a img {
+    width: 40px;
+}
+
+.hirme div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.hirme div h3 {
+    padding-left: 10px;
+    color: white;
+}
+
+
+
+
+
+
+.aboutme {
+    margin-right: 10%;
+    padding: 55px;
+}
+
+.aboutme h1 {
+    text-align: center;
+    font-family: tcm;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.aboutme h1 span {
+    color: #34BFF0;
+    text-decoration: underline;
+}
+
+.aboutme p {
+    color: whitesmoke;
+    font-family: arl;
+    font-size: 14px;
+
+}
+
+.aboutme p span {
+    color: #34BFF0;
+}
+
+.aboutme hr {
+    border-color: #34BFF0;
+}
